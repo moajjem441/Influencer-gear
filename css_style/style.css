@@ -194,6 +194,14 @@ ul li {
     border: none;
 }
 
+.rating{
+    color:#c4a809;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.rating i{
+    color:#fb8c00;
+}
 
 
 /* feature product starts from here  */
