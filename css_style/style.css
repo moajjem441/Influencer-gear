@@ -1,0 +1,429 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    background: rgba(255, 255, 255, 1);
+}
+
+.text-gray-card {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    color: #413d3dbb;
+}
+
+
+
+/* header starts from here  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 120px;
+
+}
+
+.right-nav {}
+
+.right-nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: flex-start;
+    gap: 40px;
+
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3A3A3A;
+    transition: 1s;
+
+}
+
+.right-nav ul li:hover {
+    transform: scale(1.2);
+}
+
+.left-nav h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 36px;
+    width: 100%;
+}
+
+
+
+/* header ends from here  */
+
+
+
+/* main starts from here  */
+.main-part1 {
+    display: flex;
+    padding: 0px 0px 80px 120px;
+    align-items: center;
+}
+
+.part1-desc {
+    width: 450px;
+    height: 133px;
+}
+
+.part1-desc h1 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.part1-desc p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 16px 0;
+    color: #3A3A3A;
+}
+
+.btn {
+    background-color: #E02C6D;
+    padding: 24px;
+    border-radius: 39px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.part1-camera {
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 233px;
+    padding: 80px;
+
+
+
+}
+
+
+
+/* sponspors start from here  */
+
+.sponspors-part {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 120px;
+
+
+}
+
+.sponspors-part img {
+    transition: 1s;
+}
+
+.sponspors-part img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+/* popular image collection start from here  */
+
+
+
+.popular-image-collection {
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 20px;
+
+}
+
+
+.card {
+    text-align: left;
+    box-shadow: 0px 0px 10px 0;
+    padding: 25px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 10px;
+    transition: 2s;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 350px;
+    height: 256px;
+
+}
+
+.button-part {
+    text-align: right;
+}
+
+.button-part .btn {
+    background-color: #FFFFFF;
+    color: #E02C6D;
+    font-size: 1.2rem;
+    border: none;
+}
+
+
+
+/* feature product starts from here  */
+
+.product-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 160px;
+    gap: 100px;
+}
+
+.product-part p {
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.product-part img {
+    width: 404px;
+    height: 270px;
+}
+
+/* main ends from here  */
+
+
+
+/* footer starts from here  */
+
+.footer {
+    background: rgba(10, 8, 38, 1);
+    text-align: center;
+    padding: 50px;
+}
+
+.footer h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #a5a2a2;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+
+}
+
+/* footer ends from here  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile screen  */
+
+@media screen and (max-width:576px) {
+
+    body {
+        max-width: 100%;
+    }
+
+    /* header starts from here  */
+    .navbar {
+
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .right-nav ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        font-size: 1.3rem;
+
+
+    }
+
+    .left-nav h3 {
+        padding: 15px 0px 30px 0;
+        font-size: 1.6rem;
+
+    }
+
+    /* header ends from here  */
+
+
+    /* main starts from here  */
+
+    .main-part1 {
+        flex-direction: column-reverse;
+        padding: 5px;
+
+    }
+
+    .part1-desc {
+        width: 95%;
+        height: auto;
+        text-align: center;
+
+
+    }
+
+    .part1-desc h1 {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+
+
+    button {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+    .part1-camera {
+        background-image: url(../images/Circle\ design.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 0;
+        padding: 50px;
+
+
+    }
+
+    .part1-camera img {
+        width: 202px;
+    }
+
+
+
+    /* sponspors part start  */
+    .sponspors-part {
+        text-align: center;
+        margin: 45px 0;
+        flex-direction: column;
+        gap: 40px;
+
+
+
+    }
+
+
+
+
+
+
+    /* popular image collection start from here  */
+
+
+
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0px;
+
+    }
+
+
+    .card {
+        margin: 20px;
+        transition: 2s;
+
+    }
+
+    .card img {
+        width: 97%;
+        height: auto;
+
+    }
+
+
+
+    /* feature product starts from here  */
+
+    .product-part {
+        flex-direction: column-reverse;
+        margin: 0px;
+        padding: 30px;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .product-part p {
+        padding: 20px 0;
+        font-weight: 700;
+    }
+
+    .product-part img {
+        width: 299px;
+        height: 188px;
+    }
+
+
+
+
+    /* main ends from here  */
+
+
+
+
+
+    /* footer starts from here  */
+
+    .footer {
+        padding: 60px;
+    }
+
+
+    /* footer ends from here  */
+
+
+
+}
